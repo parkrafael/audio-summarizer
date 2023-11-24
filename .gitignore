@@ -1,5 +1,5 @@
-# dependencies
-node_modules/
+# Ignore compiled Python files
+*.env
 
-#hide env file
-.env
+# Ignore the virtual environment directory
+venv/

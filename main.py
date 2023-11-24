@@ -1,36 +1,52 @@
 from openai import OpenAI
 
-# API KEY SET 
+# api setup
+import os
+from dotenv import load_dotenv
 
-OPENAI_API_KEY = "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"
+load_dotenv()
 
-client = OpenAI(
-    api_key=OPENAI_API_KEY
-)
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
-audio_file = open("organic.mp3", "rb")
+client = OpenAI(api_key=OPENAI_API_KEY)
 
-transcription = client.audio.transcriptions.create(
-    model="whisper-1",
-    file=audio_file,
-    response_format = 'text',
-)
+# function
+def summarizer(file_name):
+    audio_file = open("audio/" + file_name , "rb")
 
-# checks if transcription is a string
-if isinstance(transcription, str):
-    print('transcription is a string')
+    transcription = client.audio.transcriptions.create(
+        model="whisper-1",
+        file=audio_file,
+        response_format = 'text',
+    )
+    # checks if transcription is a string
+    # if isinstance(transcription, str):
+    #     print('transcription is a string')
 
-response = client.completions.create(
-  model="gpt-3.5-turbo-instruct",
-  prompt= "Summarize the text with proper indentation:" + transcription,
-  max_tokens= 256
-)
+    response = client.completions.create(
+        model="gpt-3.5-turbo-instruct",
+        prompt= "Detailed summary of the text given in bullet form: " + transcription,
+        max_tokens= 256
+    )
 
-print(response.choices[0].text)
+    # prints the summary 
+    # print(response.choices[0].text)
 
-f = open("myfile.txt", "w")
-f.write(response.choices[0].text)
-f.close()
+    f = open("file_name" + "_summary", "w")
+    f.write(response.choices[0].text)
+    f.close()        
+
+def main():
+    print("enter the name of your audio file: ")
+    file_name = input()
+    summarizer(file_name)
+
+main()
+
+
+
+
+
 
 
 

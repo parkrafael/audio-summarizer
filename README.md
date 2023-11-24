@@ -1,4 +1,4 @@
-# Audio Transcription Summarizer 
+# Transcription Summarizer 
 
 Using OpenAI's Whisper-1 and GPT-3 this Python script allows user to upload audio (mp3, wav, m4a) files and obtain summarized notes of the recording.
 

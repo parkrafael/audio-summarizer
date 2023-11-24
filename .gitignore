@@ -1,3 +1,3 @@
-# Ignore compiled Python files
+# ignore files:
 .env
 /.venv

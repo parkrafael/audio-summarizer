@@ -1,5 +1,3 @@
 # Ignore compiled Python files
-*.env
-
-# Ignore the virtual environment directory
-venv/
+.env
+/.venv

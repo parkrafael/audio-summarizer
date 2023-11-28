@@ -1,0 +1,11 @@
+- Carbon-carbon single bonds, double bonds, and triple bonds are known as alkanes, alkenes, and alkynes respectively
+- Alkanes or single bonds between carbons do not count as functional groups
+- A six-membered ring with alternating single and double bonds is called a benzene ring
+- The functional group name for a benzene ring depends on its attachment to the main chain (directly attached is called phenyl, one carbon away is called benzyl)
+- Adding heteroatoms attached with a single bond to carbons creates different functional groups
+- Examples include alkyl halides (halogen attached), amines (nitrogen-containing group attached), alcohols (OH group attached), ethers (R group attached to O), and thiols (SH group attached)
+- A C triple bond N is called a nitrile
+- Carbonyls (C double bond O) are not functional groups on their own
+- Carbonyls become functional groups when attached to the carbon chain, called aldehydes (on the terminal end) or ketones (within the carbon chain)
+- Combining carbonyls with heteroatoms alters the functional groups and gives them new names
+- Examples include acid halides (carbonyl and halogen), amides (carbonyl and amine), carboxylic acids (carbonyl and alcohol), and esters (carbonyl and ether)

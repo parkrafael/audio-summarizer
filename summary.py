@@ -1,6 +1,5 @@
 from openai import OpenAI
 from pydub import AudioSegment
-from docx import Document 
 
 # api setup
 import os
@@ -88,7 +87,7 @@ def transcription(file_name):
 def summary(transcription, file_name):
     try: 
         response = client.chat.completions.create(
-            model="gpt-4",
+            model="gpt-3.5-turbo-16k",
             temperature=0,
             messages=[
                 {
@@ -103,7 +102,7 @@ def summary(transcription, file_name):
         )
 
         tidy_file_name = file_name[:-4]
-        tidy_file_name_path = 'summary/' + tidy_file_name + '_summarized'
+        tidy_file_name_path = 'summary/' + tidy_file_name + '_summarized' + '.md'
 
         # Access the content using the 'choices' attribute
         content = response.choices[0].message.content

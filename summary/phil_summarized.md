@@ -1,0 +1,11 @@
+- The Modern Scholar series is introduced by Richard Davidson
+- The course is called "Discovering the Philosopher in You, the Big Questions in Philosophy" and is taught by Colin McGinn
+- Philosophy explores fundamental questions about the nature of the world, ethics, the self, free will, and the existence of God
+- The course will approach these questions from both a historical and scientific perspective
+- The goal is to uncover and exercise the philosopher's mind within each individual
+- Skepticism is introduced as a philosophical problem, questioning what we really know
+- Descartes' skepticism and the problem of other minds are discussed
+- The problem of induction and the problem of the past are also raised
+- The limits of skepticism and the importance of knowledge are explored
+- The consequences of skepticism are discussed, including the idea of metaphysical solitary confinement
+- The next lecture will focus on defining and analyzing knowledge.

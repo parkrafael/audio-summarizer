@@ -22,7 +22,6 @@ Using OpenAI's Whisper-1 and GPT-3.5 this Python program allows user to upload a
 - A C triple bond N becomes a nitrile as a functional group
 - Carbonyls (C double bond O) are not functional groups but can become functional groups depending on what they are attached to
 - If attached to carbon chain, carbonyls are called aldehydes or ketones, depending on location
-- Combining carbonyls with heteroatoms creates new functional groups, such as
 
 #### Original audio length: 4:15 minutes
 #### Time taken to finish: 0:49 minutes

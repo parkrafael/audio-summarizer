@@ -3,7 +3,8 @@
 Using OpenAI's Whisper-1 and GPT-3.5 this Python program allows user to upload audio (mp3, wav, m4a) files and obtain summarized notes of the recording.
 
 ## Development Setup:
-- Run `pip install openai `& `pip install pydub`
+- Run `pip install openai pydub dotenv`
+- Create `.env` file and initialize OpenAI key
 - Run `python summary.py` to start the program
 
 
